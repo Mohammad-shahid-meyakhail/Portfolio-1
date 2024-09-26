@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 12%;
+    background: black;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+    color: orangered;
+    text-shadow: 0 0 25px orangered, 0 0 50px orangered;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a:active {
+    color: orangered;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(241, 241, 241);
+    display: flex;
+    padding: 30px 12%;
+}
+
+.home-content h3 {
+    font-size: 42px;
+    color: #333;
+}
+
+.home-content h1 {
+    font-size: 62px;
+    line-height: 1.2;
+    color: #222;
+}
+
+.home-content p {
+    font-size: 18px;
+    margin: 25px 0 30px;
+    color: #555;
+}
+
+.pdn-box {
+    display: flex;
+    gap: 2em;
+}
+
+.projects {
+    padding: 80px 12%;
+}
+
+.project-item {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+footer h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    font-size: 18px;
+    color: #555;
+}
